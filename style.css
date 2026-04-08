@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(#a4c004, #fc0000);
+}
+.visor{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: inset 2px white;
+}
+
+.calculadora{
+   background-image: linear-gradient(#fc0000, #a4c004);
+   padding: 20px ;
+   width: 300px;
+   height: 355px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8) ;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: 
+    "AC por multi dividir"
+    "sete oito nove igual"
+    "quatro cinco seis subtrair"
+    "um dois tres ad"
+    "zeroo zeroo virgula ad";
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.btn{
+    border-radius: 10px ;
+    color: white;
+    font-size: larger;
+    background-color: rgb(255, 123, 0);
+    border: outset 2px rgb(141, 141, 141);
+}
+
+.btnAC{
+    grid-area: AC;
+}
+.btnvirgula{
+    grid-area: virgula;
+}
+
+.btnpor{
+
+    grid-area: por;
+}
+
+.btnMultiplicar{
+    grid-area: multi;
+}
+
+.btnDividir{
+    grid-area: dividir;
+}
+
+.btn7{
+    grid-area: sete;
+}
+
+.btnigual{
+    grid-area: igual;
+}
+
+.btn8{
+    grid-area: oito;
+}
+
+.btn9{
+    grid-area: nove;
+}
+
+.btn4{
+    grid-area: quatro;
+}
+.btn5{
+    grid-area: cinco;
+}
+.btn6{
+    grid-area: seis;
+}
+.btn1{
+    grid-area: um;
+}
+.btn2{
+    grid-area: dois;
+}
+.btn3{
+    grid-area: tres;
+}
+.btn0{
+    grid-area: zeroo;
+    grid-column: span 2;
+}
+
+.btnAdicionar{
+    grid-area: ad;
+}
+
+.btnSubtrair{
+    grid-area: subtrair;
+}
+
+
+
+   
