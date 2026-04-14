@@ -2,7 +2,7 @@
 
 Uma calculadora funcional e estilizada desenvolvida com foco em manipulação de layouts complexos através de CSS Grid.
 
-![Preview da Calculadora](./imagens/Captura de tela_13-4-2026_215033_127.0.0.1.jpeg)
+![Preview da Calculadora](./imagens/img.png)
 
 # Sobre o Projeto
 Este projeto foi criado para praticar a estruturação de interfaces de usuário que exigem alinhamentos precisos. A calculadora possui um visor digital e um teclado numérico completo, organizado de forma responsiva.
